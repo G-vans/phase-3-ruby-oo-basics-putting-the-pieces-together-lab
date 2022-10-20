@@ -20,6 +20,7 @@ class Shoe
 end
 
 shoe = Shoe.new("Adidas")
+shoe = Shoe.new("Nike")
 shoe.color = "red"
 shoe.size = 9.5
 shoe.material = "suede"
