@@ -4,7 +4,7 @@ describe 'Book' do
       expect { Book.new("And Then There Were None") }.not_to raise_error
     end
   end
-
+ 
   describe 'properties' do
     let(:book) { Book.new("And Then There Were None") }
 
